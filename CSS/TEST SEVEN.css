@@ -1,0 +1,81 @@
+body{
+	height:4554px;
+	width:1280px;
+	margin: 0 auto;
+}
+header{
+	position:absolute;
+	width:1280px;
+	height:60px;
+	background-color:#eee;
+}
+footer{
+	position:absolute;
+	width:1280px;
+	top:4495px;
+	height:59px;
+	background-color:#eee;
+}
+.divone{
+	position:absolute;
+	top:60px;
+	width:1280px;
+	height:690px;
+	background-color:black;
+}
+.divtwo{
+	position:absolute;
+	top:750px;
+	width:1280px;
+	height:250px;
+	background-color:#eee;
+}
+.divthree{
+	position:absolute;
+	top:1000px;
+	width:1280px;
+	height:370px;
+	background-color:black;
+}
+.divfour{
+	position:absolute;
+	top:1370px;
+	width:1280px;
+	height:340px;
+	background-color:#eee;
+}
+.divfive{
+	position:absolute;
+	top:1710px;
+	width:1280px;
+	height:600px;
+	background-color:black;
+}
+.divsix{
+	position:absolute;
+	top:2310px;
+	width:1280px;
+	height:580px;
+	background-color:#eee;
+}
+.divseven{
+	position:absolute;
+	top:2890px;
+	width:1280px;
+	height:530px;
+	background-color:black;
+}
+.diveight{
+	position:absolute;
+	top:3420px;
+	width:1280px;
+	height:730px;
+	background-color:#eee;
+}
+.divnine{
+	position:absolute;
+	top:4150px;
+	width:1280px;
+	height:345px;
+	background-color:black;
+}
