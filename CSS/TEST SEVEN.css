@@ -1,3 +1,9 @@
+div,span,object, iframe,h1, p, blockquote,
+			abbr,del, dfn, em, img, ins,strike, strong, dl, dt, dd, ol,fieldset,
+			form, label, legend, object, col, colgroup, caption,
+			summary, tbody, tfoot, thead, th{
+				margin:0; padding:0; border:0;
+			}
 body{
 	height:4554px;
 	width:1280px;
@@ -7,7 +13,6 @@ header{
 	position:absolute;
 	width:1280px;
 	height:60px;
-	background-color:#eee;
 }
 footer{
 	position:absolute;
@@ -16,12 +21,33 @@ footer{
 	height:59px;
 	background-color:#eee;
 }
+ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+li{
+	float:left;
+}
 .divone{
 	position:absolute;
 	top:60px;
 	width:1280px;
 	height:690px;
-	background-color:black;
+	background-image:url(../PIC/002.jpg);
+}
+#oneb{
+	margin-left:10px;
+	margin-top:60px;
+	width:300px;
+	height:60px;
+	background-color:red;
+	text-align:center;
+	color:white;
+	font-size:25px;
+	border:none;
+	letter-spacing:2px;
 }
 .divtwo{
 	position:absolute;
@@ -79,3 +105,4 @@ footer{
 	height:345px;
 	background-color:black;
 }
+
