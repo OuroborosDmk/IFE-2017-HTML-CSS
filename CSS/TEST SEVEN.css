@@ -30,6 +30,12 @@ ul{
 li{
 	float:left;
 }
+select{
+	border: solid 1px red;
+	background:white url(../PIC/007.png) no-repeat scroll right center transparent;
+	width:240px;
+	height:40px;	
+}
 .divone{
 	position:absolute;
 	top:60px;
@@ -49,33 +55,48 @@ li{
 	border:none;
 	letter-spacing:2px;
 }
+#twob{
+	position:absolute;
+	right:100px;
+	top:180px;
+	width:240px;
+	height:40px;
+	background-color:red;
+	color:white;
+	font-size:15px;
+	letter-spacing:25px;
+	border:none;
+	text-align:center;
+}
 .divtwo{
 	position:absolute;
 	top:750px;
 	width:1280px;
 	height:250px;
-	background-color:#eee;
+	text-align:center;
 }
 .divthree{
 	position:absolute;
 	top:1000px;
 	width:1280px;
 	height:370px;
-	background-color:black;
+	background-color:#eee;
+	text-align:center;
 }
 .divfour{
 	position:absolute;
 	top:1370px;
 	width:1280px;
 	height:340px;
-	background-color:#eee;
+	background-image:url(../PIC/002.jpg);
+	text-align:center;
 }
 .divfive{
 	position:absolute;
 	top:1710px;
 	width:1280px;
 	height:600px;
-	background-color:black;
+	background-color:#eee;
 }
 .divsix{
 	position:absolute;
