@@ -1,0 +1,129 @@
+div,span,object, iframe,h1, p, blockquote,
+			abbr,del, dfn, em, img, ins,strike, strong, dl, dt, dd, ol,fieldset,
+			form, label, legend, object, col, colgroup, caption,
+			summary, tbody, tfoot, thead, th{
+				margin:0; padding:0; border:0;
+			}
+body{
+	height:4554px;
+	width:1280px;
+	margin: 0 auto;
+}
+header{
+	position:absolute;
+	width:1280px;
+	height:60px;
+}
+footer{
+	position:absolute;
+	width:1280px;
+	top:4495px;
+	height:59px;
+	background-color:#eee;
+}
+ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+li{
+	float:left;
+}
+select{
+	border: solid 1px red;
+	background:white url(../PIC/007.png) no-repeat scroll right center transparent;
+	width:240px;
+	height:40px;	
+}
+.divone{
+	position:absolute;
+	top:60px;
+	width:1280px;
+	height:690px;
+	background-image:url(../PIC/002.jpg);
+}
+#oneb{
+	margin-left:10px;
+	margin-top:60px;
+	width:300px;
+	height:60px;
+	background-color:red;
+	text-align:center;
+	color:white;
+	font-size:25px;
+	border:none;
+	letter-spacing:2px;
+}
+#twob{
+	position:absolute;
+	right:100px;
+	top:180px;
+	width:240px;
+	height:40px;
+	background-color:red;
+	color:white;
+	font-size:15px;
+	letter-spacing:25px;
+	border:none;
+	text-align:center;
+}
+.divtwo{
+	position:absolute;
+	top:750px;
+	width:1280px;
+	height:250px;
+	text-align:center;
+}
+.divthree{
+	position:absolute;
+	top:1000px;
+	width:1280px;
+	height:370px;
+	background-color:#eee;
+	text-align:center;
+}
+.divfour{
+	position:absolute;
+	top:1370px;
+	width:1280px;
+	height:340px;
+	background-image:url(../PIC/002.jpg);
+	text-align:center;
+}
+.divfive{
+	position:absolute;
+	top:1710px;
+	width:1280px;
+	height:600px;
+	background-color:#eee;
+}
+.divsix{
+	position:absolute;
+	top:2310px;
+	width:1280px;
+	height:580px;
+	background-color:#eee;
+}
+.divseven{
+	position:absolute;
+	top:2890px;
+	width:1280px;
+	height:530px;
+	background-color:black;
+}
+.diveight{
+	position:absolute;
+	top:3420px;
+	width:1280px;
+	height:730px;
+	background-color:#eee;
+}
+.divnine{
+	position:absolute;
+	top:4150px;
+	width:1280px;
+	height:345px;
+	background-color:black;
+}
+

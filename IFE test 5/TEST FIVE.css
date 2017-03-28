@@ -1,0 +1,85 @@
+html,body{ 
+	height:199%;
+	background-color:#C0C0C0
+}
+p{
+	font-size:14px;
+	letter-spacing:1px;
+	line-height:25px; 
+}
+nav a{
+	color:white;
+}
+td,th{
+	border:1px solid black;
+}
+table{
+	width:90%;
+}
+th{
+	color:white;
+	background-color:black;
+}
+.divone{
+	position:relative;
+	left:1%;
+	width:98%;
+	height:100%;
+}
+.art{
+	padding-top:2%;
+	padding-left:3%;
+	padding-bottom:2%;
+	padding-right:2%;
+	margin-right:470px;
+	margin-top:2%;
+	margin-bottom:2%;
+	background-color:white;
+	box-shadow: 5px 5px 5px #888888;
+}
+.art1{
+	padding-top:2%;
+	padding-left:3%;
+	padding-bottom:2%;
+	padding-right:2%;
+	margin-right:470px;
+	margin-top:2%;
+	margin-bottom:2%;
+	background-color:white;
+	box-shadow: 5px 5px 5px #888888;
+}
+.art2{
+	padding-top:2%;
+	padding-left:3%;
+	position:relative;
+	height:600px;
+	margin-right:470px;
+	margin-top:2%;
+	margin-bottom:2%;
+	background-color:white;
+	box-shadow: 5px 5px 5px #888888;
+}
+.art3{
+	padding-top:2%;
+	padding-left:3%;
+	padding-bottom:2%;
+	padding-right:2%;
+	margin-right:470px;
+	margin-top:2%;
+	margin-bottom:2%;
+	background-color:white;
+	box-shadow: 5px 5px 5px #888888;
+}
+.art4{
+	padding-top:1%;
+	padding-left:1%;
+	padding-bottom:1%;
+	padding-right:1%;
+	position:absolute;
+	top:0;
+	width:400px;
+	height:500px;
+	right:0.5%;
+	background-color:white;
+	box-shadow: 5px 5px 5px #888888;
+}
