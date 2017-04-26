@@ -35,10 +35,23 @@
 			list-style:none;
 			width:70%;
 		}
-		.nav li{
+		.nav > li{
 			float:left;
 			margin-right:4px;
 			width:16%;
+		}
+		.nav > li ul{
+			display:none;
+			list-style:none;
+		}
+		.nav > li.get ul{
+			display:block;
+			list-style:none;
+		}
+		.nav > li ul li{
+			color:white;
+			float:none;
+			margin-right:0;
 		}
 		.nav li a{
 			display:block;
@@ -304,13 +317,55 @@
 </head>
 <body>
 	<header class="header">
-		<ul class="nav">
-			<li><a href="#" target="_blank">学院概况</a></li>
-			<li><a href="#" target="_blank">师资力量</a></li>
-			<li><a href="#" target="_blank">科研机构</a></li>
-			<li><a href="#" target="_blank">学生工作</a></li>
-			<li><a href="#" target="_blank">成果展示</a></li>
-			<li><a href="#" target="_blank">资源下载</a></li>
+		<ul class="nav" id="nav">
+			<li><a href="#" target="_blank">学院概况</a>
+				<ul>
+					<li><a href="#" target="_blank">1</li>
+					<li><a href="#" target="_blank">1</li>
+					<li><a href="#" target="_blank">1</li>
+					<li><a href="#" target="_blank">1</li>
+				</ul>	
+			</li>
+			<li><a href="#" target="_blank">师资力量</a>
+				<ul>
+					<li><a href="#" target="_blank">1</a></li>
+					<li><a href="#" target="_blank">1</a></li>
+					<li><a href="#" target="_blank">1</a></li>
+					<li><a href="#" target="_blank">1</a></li>
+				</ul>
+			</li>
+			<li><a href="#" target="_blank">科研机构</a>
+				<ul>
+					<li><a href="#" target="_blank">1</a></li>
+					<li><a href="#" target="_blank">1</a></li>
+					<li><a href="#" target="_blank">1</a></li>
+					<li><a href="#" target="_blank">1</a></li>
+				</ul>
+			</li>
+			<li><a href="#" target="_blank">学生工作</a>
+				<ul>
+					<li><a href="#" target="_blank">1</a></li>
+					<li><a href="#" target="_blank">1</a></li>
+					<li><a href="#" target="_blank">1</a></li>
+					<li><a href="#" target="_blank">1</a></li>
+				</ul>
+			</li>
+			<li><a href="#" target="_blank">成果展示</a>
+				<ul>
+					<li><a href="#" target="_blank">1</a></li>
+					<li><a href="#" target="_blank">1</a></li>
+					<li><a href="#" target="_blank">1</a></li>
+					<li><a href="#" target="_blank">1</a></li>
+				</ul>
+			</li>
+			<li><a href="#" target="_blank">资源下载</a>
+				<ul>
+					<li><a href="#" target="_blank">1</a></li>
+					<li><a href="#" target="_blank">1</a></li>
+					<li><a href="#" target="_blank">1</a></li>
+					<li><a href="#" target="_blank">1</a></li>
+				</ul>	
+			</li>
 		</ul>
 		<div class="header_right">
 			<form>
@@ -319,7 +374,7 @@
 			</form>
 		</div>
 	</header>
-	<div class="body_one">
+	<div class="body_one" id="body_one">
 		<div class="body_one_left">
 		</div>
 		<div class="body_one_right">
@@ -335,7 +390,7 @@
 			</ul>
 		</div>
 	</div>
-	<div class="picbox">
+	<div class="picbox" id="picbox">
 		<div id="picbox_one"></div>
 		<div class="picbox_two">
 			<p id="picbox_twop">"New Campus<br />New dream1"</p>
@@ -381,6 +436,32 @@
 		</div>
 	</footer>
 	<script>
+		document.getElementById("nav").onmouseover=function(){
+			var newdiv=document.createElement("div");
+			newdiv.style.backgroundColor="#006666";
+			newdiv.style.width="100%";
+			newdiv.style.height="160px";
+			newdiv.id="newdivid";
+			var body_one=document.getElementById("body_one");
+			document.body.insertBefore(newdiv,body_one);
+			var picbox=document.getElementById("picbox");
+			picbox.style.top="340px";
+			var newli=document.getElementById("nav").getElementsByTagName("li");
+			for(var i in newli){
+				newli[i].className+=(newli[i].className.length>0?" ":"")+"get";
+			}
+		}
+		document.getElementById("nav").onmouseout=function(){
+			var newdivid=document.getElementById("newdivid");
+			newdivid.style.backgroundColor="black";
+			var remove=document.body.removeChild(newdivid);
+			var picbox=document.getElementById("picbox");
+			picbox.style.top="180px";
+			var newli=document.getElementById("nav").getElementsByTagName("li");
+			for(var i in newli){
+				newli[i].className=newli[i].className.replace("get","");
+			}
+		}
 		document.getElementById("picbox_button1").onmouseover=function(){
 			document.getElementById("picbox_threep").innerHTML="33333333";
 			document.getElementById("picbox_twop").innerHTML='"New Campus<br />New dream3"';
