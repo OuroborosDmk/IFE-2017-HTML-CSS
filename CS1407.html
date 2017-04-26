@@ -16,6 +16,7 @@
 			background-color:#F8F8F8;
 		}
 		body{
+			min-width:1000px;
 			margin-left:15%;
 			margin-right:15%;
 			height:1560px;
@@ -78,6 +79,7 @@
 			margin-left:10%;
 			margin-top:20px;
 			background-image:url(./PIC/东大.PNG);
+			background-repeat:no-repeat;
 			width:24%;
 			float:left;
 			height:90px;
@@ -104,7 +106,7 @@
 			list-style:none;
 		}
 		.picbox{
-			background-color:pink;
+			background-color:#0099FF;
 			height:400px;
 			width:80%;
 			margin-left:10%;
@@ -112,6 +114,66 @@
 			z-index:20;
 			position:absolute;
 			top:180px;
+		}
+		#picbox_one{
+			float:left;
+			width:70%;
+			height:100%;
+			background-image:url(./PIC/dongda1.jpg);
+		}
+		.picbox_two{
+			float:right;
+			width:30%;
+			height:100%;
+		}
+		.picbox_two p{
+			font-size:30px;
+			line-height:50px;
+			color:white;
+			margin-top:10%;
+			margin-left:10%;
+		}
+		.picbox_three{
+			position:absolute;
+			top:360px;
+			height:40px;
+			width:100%;
+			opacity:0.8;
+			background-image:url(./PIC/PIC01.PNG);
+			z-index:40;
+		}
+		.picbox_three p{
+			float:left;
+			color:white;
+			margin-left:10%;
+			margin-top:1.5%;;
+		}
+		#picbox_button1{
+			float:right;
+			border-radius:50%;
+			margin-right:1.5%;
+			margin-top:1.5%;
+			border:2px solid white;
+			width:15px;
+			height:15px;
+		}
+		#picbox_button2{
+			float:right;
+			border-radius:50%;
+			margin-right:1.5%;
+			margin-top:1.5%;
+			border:2px solid white;
+			width:15px;
+			height:15px;
+		}
+		#picbox_button3{
+			float:right;
+			border-radius:50%;
+			margin-right:1.5%;
+			margin-top:1.5%;
+			border:2px solid white;
+			width:15px;
+			height:15px;
 		}
 		.body_two{
 			width:80%;
@@ -259,7 +321,6 @@
 	</header>
 	<div class="body_one">
 		<div class="body_one_left">
-			
 		</div>
 		<div class="body_one_right">
 			<ul class="rightnav1">
@@ -275,6 +336,16 @@
 		</div>
 	</div>
 	<div class="picbox">
+		<div id="picbox_one"></div>
+		<div class="picbox_two">
+			<p id="picbox_twop">"New Campus<br />New dream1"</p>
+		</div>
+		<div class="picbox_three">
+			<p id="picbox_threep">11111111</p>
+			<div id="picbox_button1"></div>
+			<div id="picbox_button2"></div>
+			<div id="picbox_button3"></div>
+		</div>
 	</div>
 	<div class="body_two">
 		<div class="body_two_left">
@@ -309,5 +380,22 @@
 			<p>校址：辽宁省沈阳市和平区文化路三巷11号&nbsp&nbsp|&nbsp&nbsp邮编：110819&nbsp&nbsp|&nbsp&nbsp辽ICP备05001360号</p>
 		</div>
 	</footer>
+	<script>
+		document.getElementById("picbox_button1").onmouseover=function(){
+			document.getElementById("picbox_threep").innerHTML="33333333";
+			document.getElementById("picbox_twop").innerHTML='"New Campus<br />New dream3"';
+			document.getElementById("picbox_one").style.backgroundImage="url('./PIC/dongda3.jpg')";
+		}
+		document.getElementById("picbox_button2").onmouseover=function(){
+			document.getElementById("picbox_threep").innerHTML="22222222";
+			document.getElementById("picbox_twop").innerHTML='"New Campus<br />New dream2"';
+			document.getElementById("picbox_one").style.backgroundImage="url('./PIC/东大2.jpg')";
+		}
+		document.getElementById("picbox_button3").onmouseover=function(){
+			document.getElementById("picbox_threep").innerHTML="11111111";
+			document.getElementById("picbox_twop").innerHTML='"New Campus<br />New dream1"';
+			document.getElementById("picbox_one").style.backgroundImage="url('./PIC/dongda1.jpg')";
+		}
+	</script>
 </body>
 </html>
