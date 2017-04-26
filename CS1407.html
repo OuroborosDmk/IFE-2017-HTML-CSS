@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CS1407</title>
+	<meta charset="UTF-8"/>
+	<style type="text/css"/>
+		/*通用部分*/
+		*{
+			margin:0; 
+			padding:0; 
+			border:0;
+			font-size:14px;
+			font-family:"微软雅黑";
+		}
+		html{
+			background-color:#F8F8F8;
+		}
+		body{
+			margin-left:15%;
+			margin-right:15%;
+			height:1560px;
+			position:relative;
+			background-color:white;
+		}
+		a{
+			text-decoration:none;
+		}
+		/*页头部分*/
+		.header{
+			width:100%;
+			height:40px;
+		}
+		.nav{
+			list-style:none;
+			width:70%;
+		}
+		.nav li{
+			float:left;
+			margin-right:4px;
+			width:16%;
+		}
+		.nav li a{
+			display:block;
+			background-color:black;
+			color:white;
+			text-align:center;
+			line-height:40px;
+		}
+		.nav li a.on,.nav li a:hover{
+			background:white;
+			color:black; 
+		}
+		.header_right{
+			float:right;
+			background-color:black;
+			width:30%;
+			height:40px;
+		}
+		.header_right input{
+			width:80%;
+			height:70%;
+			margin-left:4%;
+			margin-top:3.5%;
+		}
+		.header_right button{
+			width:9%;
+			height:70%;
+			margin-right:3%;
+			margin-top:3.5%;
+		}
+		/*主体部分*/
+		.body_one{
+			background-color:#006666;
+			height:500px;
+			width:100%;
+		}
+		.body_one_left{
+			margin-left:10%;
+			margin-top:20px;
+			background-image:url(./PIC/东大.PNG);
+			width:24%;
+			float:left;
+			height:90px;
+		}
+		.body_one_right{
+			margin-top:20px;
+			width:28%;
+			float:right;
+		}
+		.body_one_right a{
+			color:white;
+		}
+		.body_one_right a.on,.body_one_right a:hover{
+			color:black; 
+		}
+		.rightnav1{
+			width:50%;
+			float:left;
+			list-style:none;
+		}
+		.rightnav2{
+			width:50%;
+			float:right;
+			list-style:none;
+		}
+		.picbox{
+			background-color:pink;
+			height:400px;
+			width:80%;
+			margin-left:10%;
+			margin-right:10%;
+			z-index:20;
+			position:absolute;
+			top:180px;
+		}
+		.body_two{
+			width:80%;
+			margin-top:40px;
+			margin-left:10%;
+			margin-right:10%;
+			height:700px;
+		}
+		.body_two_left{
+			width:70%;
+			float:left;
+			height:100%;
+			background-color:white;
+		}
+		.body_two_leftone{
+			width:100%;
+			height:50%;
+		}
+		.body_two_leftone > p{
+			font-size:25px;
+			margin-top:10px;
+			margin-left:8%;
+		}
+		.body_two_leftone > p + div{
+			background-color:grey;
+			height:2px;
+			margin-left:5%;
+			margin-top:5px;
+			width:70%;
+		}
+		.body_two_lefttwo{
+			width:100%;
+			height:50%;
+		}
+		.body_two_lefttwo > p{
+			font-size:25px;
+			margin-top:10px;
+			margin-left:8%;
+		}
+		.body_two_lefttwo > p + div{
+			background-color:grey;
+			height:2px;
+			margin-left:5%;
+			margin-top:5px;
+			width:70%;
+		}
+		.body_two_right{
+			width:30%;
+			float:right;
+			height:100%;
+			background-color:#D8D8D8;
+		}
+		.body_two_right > p{
+			font-size:25px;
+			margin-top:10px;
+			margin-left:8%;
+		}
+		.body_two_right > p + div{
+			background-color:grey;
+			height:2px;
+			margin-left:5%;
+			margin-top:5px;
+			width:85%;
+		}
+		/*页脚部分*/
+		.footer{
+			width:100%;
+			height:250px;
+			background-color:#006666;
+			position:relative;
+			top:30px;
+		}
+		.footer_top{
+			width:100%;
+			height:200px;
+		}
+		.footer_topone{
+			width:33%;
+			height:200px;
+			float:left;
+			border-right:1px solid white;
+		}
+		.footer_toponep{
+			color:white;
+			font-size:25px;
+			margin-top:50px;
+			margin-left:20%;
+		}
+		.footer_toponep + p{
+			color:white;
+			font-size:25px;
+			margin-top:50px;
+			margin-left:35%;		
+		}
+		.footer_toptwo{
+			width:33%;
+			height:200px;
+			float:left;
+			border-right:1px solid white;
+		}
+		.footer_toptwo img{
+			margin-top:60px;
+			margin-left:15%;
+		}
+		.footer_topthree{
+			width:33%;
+			height:200px;
+			float:left;
+		}
+		.footer_topthree p{
+			color:white;
+			font-size:16px;
+			margin-top:100px;
+			margin-left:15%;
+		} 
+		.footer_bottom{
+			width:100%;
+			height:50px;
+			background-color:black;
+			text-align:center;
+		}
+		.footer_bottom p{
+			color:white;
+			font-size:18px;
+			padding-top:10px;
+		}
+	</style>
+</head>
+<body>
+	<header class="header">
+		<ul class="nav">
+			<li><a href="#" target="_blank">学院概况</a></li>
+			<li><a href="#" target="_blank">师资力量</a></li>
+			<li><a href="#" target="_blank">科研机构</a></li>
+			<li><a href="#" target="_blank">学生工作</a></li>
+			<li><a href="#" target="_blank">成果展示</a></li>
+			<li><a href="#" target="_blank">资源下载</a></li>
+		</ul>
+		<div class="header_right">
+			<form>
+				<input type="text" id="searchtext"></input>
+				<button id="search">查</button>
+			</form>
+		</div>
+	</header>
+	<div class="body_one">
+		<div class="body_one_left">
+			
+		</div>
+		<div class="body_one_right">
+			<ul class="rightnav1">
+				<li><a href="#" target="_blank">>&nbsp东北大学首页</a></li>
+				<li><a href="#" target="_blank">>&nbsp东大教务处</a></li>
+				<li><a href="#" target="_blank">>&nbsp校长办公室</a></li>
+				<li><a href="#" target="_blank">>&nbsp学生工作处</a></li>
+			</ul>
+			<ul class="rightnav2">
+				<li><a href="#" target="_blank">>&nbsp捐赠</a></li>
+				<li><a href="#" target="_blank">>&nbsp联系我们</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="picbox">
+	</div>
+	<div class="body_two">
+		<div class="body_two_left">
+			<div class="body_two_leftone">
+				<p>学院通知</p>
+				<div></div>
+			</div>
+			<div class="body_two_lefttwo">
+				<p>学术活动</p>
+				<div></div>
+			</div>
+		</div>
+		<div class="body_two_right">
+			<p>新闻</p>
+			<div></div>
+		</div>
+	</div>
+	<footer class="footer">
+		<div class="footer_top">
+			<div class="footer_topone">
+				<p class="footer_toponep">”自强不息</p>
+				<p>知行合一“</p>
+			</div>
+			<div class="footer_toptwo">
+				<img src="./PIC/东大.PNG"/>
+			</div>
+			<div class="footer_topthree">
+				<p>联系我们：</p>
+			</div>
+		</div>
+		<div class="footer_bottom">
+			<p>校址：辽宁省沈阳市和平区文化路三巷11号&nbsp&nbsp|&nbsp&nbsp邮编：110819&nbsp&nbsp|&nbsp&nbsp辽ICP备05001360号</p>
+		</div>
+	</footer>
+</body>
+</html>
