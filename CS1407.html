@@ -17,8 +17,6 @@
 		}
 		body{
 			min-width:1000px;
-			margin-left:15%;
-			margin-right:15%;
 			height:1560px;
 			position:relative;
 			background-color:white;
@@ -30,21 +28,25 @@
 		.header{
 			width:100%;
 			height:40px;
+			background-color:black;
 		}
 		.nav{
 			list-style:none;
-			width:70%;
+			width:60%;
+			margin-left:10%;
 		}
 		.nav > li{
 			float:left;
-			margin-right:4px;
 			width:16%;
+			border-right:1px solid white;
+			border-left:1px solid white;
 		}
 		.nav > li ul{
 			display:none;
 			list-style:none;
 		}
 		.nav > li.get ul{
+			opacity:0.7;
 			display:block;
 			list-style:none;
 		}
@@ -67,16 +69,19 @@
 		.header_right{
 			float:right;
 			background-color:black;
-			width:30%;
+			width:20%;
 			height:40px;
+			margin-right:10%;
 		}
 		.header_right input{
 			width:80%;
 			height:70%;
 			margin-left:4%;
 			margin-top:3.5%;
+			border-radius:5%;
 		}
 		.header_right button{
+			border-radius:10%;
 			width:9%;
 			height:70%;
 			margin-right:3%;
@@ -109,12 +114,12 @@
 			color:black; 
 		}
 		.rightnav1{
-			width:50%;
+			width:40%;
 			float:left;
 			list-style:none;
 		}
 		.rightnav2{
-			width:50%;
+			width:60%;
 			float:right;
 			list-style:none;
 		}
@@ -151,7 +156,7 @@
 			top:360px;
 			height:40px;
 			width:100%;
-			opacity:0.8;
+			opacity:0.7;
 			background-image:url(./PIC/PIC01.PNG);
 			z-index:40;
 		}
@@ -466,16 +471,20 @@
 			document.getElementById("picbox_threep").innerHTML="33333333";
 			document.getElementById("picbox_twop").innerHTML='"New Campus<br />New dream3"';
 			document.getElementById("picbox_one").style.backgroundImage="url('./PIC/dongda3.jpg')";
+			
 		}
 		document.getElementById("picbox_button2").onmouseover=function(){
 			document.getElementById("picbox_threep").innerHTML="22222222";
 			document.getElementById("picbox_twop").innerHTML='"New Campus<br />New dream2"';
 			document.getElementById("picbox_one").style.backgroundImage="url('./PIC/东大2.jpg')";
+			
+			
 		}
 		document.getElementById("picbox_button3").onmouseover=function(){
 			document.getElementById("picbox_threep").innerHTML="11111111";
 			document.getElementById("picbox_twop").innerHTML='"New Campus<br />New dream1"';
 			document.getElementById("picbox_one").style.backgroundImage="url('./PIC/dongda1.jpg')";
+			
 		}
 	</script>
 </body>
