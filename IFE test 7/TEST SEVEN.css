@@ -2,7 +2,10 @@
 	margin:0;
 	border:0;
 	padding:0;
+<<<<<<< HEAD
 	font-family:"微软雅黑";
+=======
+>>>>>>> origin/gh-pages
 }
 a{	
 	color:black;
@@ -18,6 +21,7 @@ header{
 	margin-left:5%;
 	height:100%;
 	width:10%;
+<<<<<<< HEAD
 }
 .header_left img{
 	float:left;
@@ -44,6 +48,34 @@ header{
 	color:grey;
 	height:100%;
 }
+=======
+}
+.header_left img{
+	float:left;
+	height:100%;
+	width:30%;
+}
+.header_left p{
+	margin-top:18px;
+	font-size:20px;
+}
+.header_left p{
+	font-size:20px;
+}
+.nav{
+	margin-top:20px;
+	width:30%;
+	float:right;
+	list-style:none;
+	height:36px;
+}
+.nav li{
+	width:20%;
+	float:left;
+	color:grey;
+	height:100%;
+}
+>>>>>>> origin/gh-pages
 .nav li a{
 	color:grey;
 	height:100%;
@@ -64,7 +96,10 @@ a:hover{
 	margin-top:25%;
 }
 /*主体部分*/
+<<<<<<< HEAD
 /*部分一*/
+=======
+>>>>>>> origin/gh-pages
 .body_one{
 	width:100%;
 	height:700px;
@@ -95,6 +130,7 @@ a:hover{
 	margin-left:9%;
 	width:300px;
 	height:55px;
+<<<<<<< HEAD
 	text-align:center;
 }
 /*部分二*/
@@ -430,8 +466,52 @@ a:hover{
 	height:400px;
 	background-color:black;
 }
+=======
+	text-align:center;
+}
+.body_two{
+	width:100%;
+	height:200px;
+}
+.body_three{
+	width:100%;
+	height:300px;
+	background-color:black;
+}
+.body_four{
+	width:100%;
+	height:200px;
+}
+.body_five{
+	width:100%;
+	height:400px;
+	background-color:black;
+}
+.body_six{
+	width:100%;
+	height:400px;
+}
+.body_seven{
+	width:100%;
+	height:400px;
+	background-color:black;
+}
+.body_eight{
+	width:100%;
+	height:500px;
+}
+.body_nine{
+	width:100%;
+	height:400px;
+	background-color:black;
+}
+>>>>>>> origin/gh-pages
 /*页脚部分*/
 .footer{
 	width:100%;
 	height:50px;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> origin/gh-pages
