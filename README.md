@@ -10,4 +10,11 @@
 <br />
 <br /><b>预览地址：</b>
 <br /><b>小薇学院:</b>
-<br />1.
+<br />1.https://ouroborosdmk.github.io/IFE-2017-HTML-CSS//CS1407.html
+<br />2.https://ouroborosdmk.github.io/IFE-2017-HTML-CSS//CS1407.html
+<br />3.https://ouroborosdmk.github.io/IFE-2017-HTML-CSS//CS1407.html
+<br />4.https://ouroborosdmk.github.io/IFE-2017-HTML-CSS//CS1407.html
+<br />5.https://ouroborosdmk.github.io/IFE-2017-HTML-CSS//CS1407.html
+<br />6.https://ouroborosdmk.github.io/IFE-2017-HTML-CSS//CS1407.html
+<br />7.https://ouroborosdmk.github.io/IFE-2017-HTML-CSS//CS1407.html
+<br />8.https://ouroborosdmk.github.io/IFE-2017-HTML-CSS//CS1407.html
