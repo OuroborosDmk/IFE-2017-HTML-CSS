@@ -572,16 +572,115 @@ a:hover{
 	color:grey;
 }
 .body_eight_left{
+	float:left;
+	margin-top:2%;
+	width:40%;
+	height:60%;
+}
+.eight_left_one{
+	margin-left:30%;
+	height:40%;
+}
+.eight_left_one p:nth-child(1){
+	letter-spacing:1px;
+}
+.eight_left_one p:nth-child(2){
+	margin-top:5%;
+	font-size:13px;
+	line-height:20px;
+	color:grey;
+}
+.eight_left_one a{
+	margin-left:70%;
+	font-size:13px;
+	color:grey;
+}
+.eight_left_two{
+	margin-left:30%;
+	height:40%;
+}
+.eight_left_two p:nth-child(1){
+	letter-spacing:1px;
+}
+.eight_left_two p:nth-child(2){
+	margin-top:5%;
+	font-size:13px;
+	line-height:20px;
+	color:grey;
+}
+.eight_left_two a{
+	margin-left:70%;
+	font-size:13px;
+	color:grey;
+}
+.eight_left_three{
+	margin-left:30%;
+	height:20%;
+}
+.eight_left_three p{
+	letter-spacing:1px;
+}
+.eight_left_three a{
+	margin-left:70%;
+	font-size:13px;
+	color:grey;
+}
+.body_eight_right{
+	float:right;
+	margin-top:2%;
+	width:60%;
+	height:60%;
+}
+.body_eight_right form{
+
+}
+#name{
+
+}
+#age{
+
+}
+#phone{
+
+}
+#address{
+
+}
+#text{
+
+}
+#input{
 	
 }
 /*部分九*/
 .body_nine{
 	width:100%;
-	height:400px;
+	height:500px;
 	background-color:black;
+}
+.body_nine p:nth-child(1){
+
+}
+.body_nine p:nth-child(2){
+
+}
+.body_nine input{
+
+}
+.body_nine button{
+
+}
+.body_nine img{
+
 }
 /*页脚部分*/
 .footer{
 	width:100%;
 	height:50px;
+}
+.footer p{
+
+}
+.footer button{
+
 }
