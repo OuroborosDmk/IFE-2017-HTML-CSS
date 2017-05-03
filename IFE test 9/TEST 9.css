@@ -1,0 +1,83 @@
+/*通用*/
+*{
+	border:0;
+	margin:0;
+	padding:0;
+}
+/*初始部分*/
+html{
+	width:100%;
+	background-color:black;
+}
+body{
+	height:1200px;
+	width:90%;
+	margin: 0 auto;
+	background-color:white;
+}
+/*页头部分*/
+header{
+	background-color:blue;
+	height:70px;
+	width:100%;
+}
+/*侧边栏*/
+aside{
+	float:left;
+	width:20%;
+	height:1130px;
+	background-color:grey;
+}
+.aside_one{
+	width:100%;
+	height:180px;
+}
+.aside_one_one{
+	margin-right:20%;
+	margin-top:20%;
+	width:60px;
+	height:60px;
+	border-radius:50%;
+	border:2px solid white;
+}
+.aside_one_two{
+	margin-top:5px;
+	margin: 0 auto;
+	width:50px;
+	height:50px;
+	border-radius:50%;
+	background-color:white;
+}
+.aside_one p{
+
+}
+/*正体部分*/
+.body_div{
+	float:right;
+	width:80%;
+	height:1130px;
+}
+/*部分一*/
+.body_div_one{
+
+}
+/*部分二*/
+.body_div_two{
+
+}
+/*部分三*/
+.body_div_three{
+
+}
+/*部分四*/
+.body_div_four{
+
+}
+/*部分五*/
+.body_div_five{
+
+}
+/*部分六*/
+.body_div_six{
+
+}
