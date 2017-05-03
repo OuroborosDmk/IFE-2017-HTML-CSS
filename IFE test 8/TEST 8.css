@@ -6,30 +6,34 @@
 body{	
 	background-color:white;
 }
-div{
+body > div{
+	box-sizing:border-box;
 	float:left;
+	border-radius:5px;
+	margin: 10px 0;
+	padding: 0 10px;
+}
+.lidiv{
+	box-sizing:border-box;
 	border:1px solid #999;
 	background-color:#eee;
-	border-radius:5px;
-	margin-left:20px;
-	margin-top:20px;
 	height:50px;
 }
 @media (min-width: 768px){
 	.col-md-1{
-		width:8%;
+		width:8.3%;
 	}
 	.col-md-2{
-		width:16%;
+		width:16.6%;
 	}
 	.col-md-3{
-		width:24%;
+		width:24.9%;
 	}
 	.col-md-4{
-		width:32%;
+		width:33.2%;
 	}
 	.col-md-6{
-		width:48%;
+		width:49.8%;
 	}
 }
 
