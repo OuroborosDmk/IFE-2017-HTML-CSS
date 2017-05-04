@@ -15,8 +15,11 @@
 }
 body{
 	display:flex;
+	-webkit-display:flex;
 	flex-flow:column wrap;
+	-webkit-flex-flow:column wrap;
 	align-items:center;
+	-webkit-align-items:center;
 }
 table{
 	width:250px;
