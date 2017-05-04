@@ -1,0 +1,75 @@
+/*动画部分*/
+@keyframes change{
+	from{
+		
+	}
+	to{
+		
+	}
+}
+/*样式部分*/
+*{
+	border:0;
+	margin:0;
+	padding:0;
+}
+body{
+	display:flex;
+	flex-flow:column wrap;
+	align-items:center;
+}
+table{
+	width:250px;
+	border:1px solid white;
+	text-align:left;
+	text-indent:5px;
+	margin-bottom:50px;
+}
+table th{
+	background-color:black;
+	color:white;
+}
+table tr:nth-child(2),tr:nth-child(3),tr:nth-child(4){
+	color:red;
+}
+table tr:nth-child(even){
+	background-color:white;
+}
+table tr:nth-child(odd){
+	background-color:grey;
+}
+input{
+	width:200px;
+	height:30px;
+	margin-bottom:50px;
+	border:1px solid black;
+	transition:all 5s ease 0s;
+}
+input:hover{
+	width:300px;
+	height:40px;
+	box-shadow:0px 0px 20px blue;
+}
+.box{
+	width:500px;
+	height:300px;
+	background-color:green;
+	display:flex;
+	flex-flow:row wrap;
+	justify-content:flex-end;
+	align-items:flex-end;
+	border:1px solid black;
+}
+.box div{
+	display:flex;
+	margin-right:10px;
+	width:50px;
+	height:50px;
+	justify-content:center;
+	align-items:center;
+	background-color:white;
+	z-index:20;
+}
+.box div:nth-child(3){
+	margin-right:0;
+}
