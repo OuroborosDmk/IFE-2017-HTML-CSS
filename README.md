@@ -2,7 +2,7 @@
 
 <br />把原来杂乱的文件重新整理了一下
 <br />
-<br />3.4.10的预览出了迷之问题(放在本地显示没问题，暂时不知道问题在哪?_?
+<br />有关CSS3和Flex布局的预览都出现了迷之问题(放在本地显示没问题，暂时不知道问题在哪?_?
 <br />
 <br />LV.2升级中
 <br />
@@ -20,5 +20,5 @@
 <br />8. https://ouroborosdmk.github.io/IFE-2017-HTML-CSS/IFE%20test%208/IFE%20test%208.html
 <br />9. https://ouroborosdmk.github.io/IFE-2017-HTML-CSS/IFE%20test%209/IFE%20test%209.html
 <br />10. https://ouroborosdmk.github.io/IFE-2017-HTML-CSS/IFE%20test%2010/IFE%20test%2010.html
-<br />11. https://ouroborosdmk.github.io/IFE-2017-HTML-CSS/IFE%20test%2011/IFE%20test%2011.html
+<br />11. https://ouroborosdmk.github.io/IFE-2017-HTML-CSS/IFE%20test%2011/IFE%20test%2011.html(施工中)
 <br />12. https://ouroborosdmk.github.io/IFE-2017-HTML-CSS/IFE%20test%2012/IFE%20test%2012.html
